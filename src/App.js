@@ -1,5 +1,6 @@
 
 import './App.css';
+import Weather from "./Weather"
 
 export default function App() {
 
@@ -10,7 +11,7 @@ export default function App() {
         <div class="container">
 
         <h2>Weather App</h2>
-
+<Weather />
         <footer>
           This project is created by Marina Golovina and is
         
