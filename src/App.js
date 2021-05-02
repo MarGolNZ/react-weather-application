@@ -11,7 +11,7 @@ export default function App() {
         <div class="container">
 
         
-<Weather />
+<Weather defaultCity="New York" />
         <footer>
           This project is created by Marina Golovina and is
         
