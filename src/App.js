@@ -15,7 +15,9 @@ export default function App() {
         <footer>
           This project is created by Marina Golovina and is
         
-        <a href="https://github.com/MarGolNZ/react-weather-application" target="_blank"> open-sourced on GitHub</a>
+        <a href="https://github.com/MarGolNZ/react-weather-application"
+        target="_blank"
+        rel="noopener noreferrer"> open-sourced on GitHub</a>
       </footer>
       </div>
 
