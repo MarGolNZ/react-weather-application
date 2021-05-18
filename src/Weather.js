@@ -53,7 +53,7 @@ export default function Weather(props) {
                         />
                     </div>
                     <div className="col-3">
-                        <button type="button" className="btn btn-primary w-100" onSubmit={handleSubmit}>Search</button>
+                        <button type="submit" className="btn btn-primary w-100" >Search</button>
                     </div>
                 
                 </div>
