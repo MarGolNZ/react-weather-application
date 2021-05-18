@@ -6,7 +6,7 @@ import WeatherTemperature from "./WeatherTemperature"
 
 export default function WeatherInfo(props) {
     return (
-        <div ClassName="WeatherInfo">
+        <div className="WeatherInfo">
 
         <h1>{props.data.city}</h1>
 
@@ -21,7 +21,7 @@ export default function WeatherInfo(props) {
 
                <div className="col-6" >
                    <div className="clearfix">
-                       <div class="float-left">
+                       <div className="float-left">
                         <WeatherIcon
                            code={props.data.icon}
                            size={52}

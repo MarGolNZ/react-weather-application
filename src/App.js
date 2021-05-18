@@ -8,7 +8,7 @@ export default function App() {
 
     <div className="App">
 
-        <div class="container">
+        <div className="container">
 
         
 <Weather defaultCity="New York" />
@@ -17,7 +17,7 @@ export default function App() {
         
         <a href="https://github.com/MarGolNZ/react-weather-application"
         target="_blank"
-        rel="noopener noreferrer"> open-sourced on GitHub</a>
+        rel="noreferrer"> open-sourced on GitHub</a>
       </footer>
       </div>
 

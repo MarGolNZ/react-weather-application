@@ -9,7 +9,6 @@ export default function Weather(props) {
     const [weatherData, setWeatherData] = useState({ ready: false })
 
     function handleResponse(response) {
-        console.log(response.data);
         setWeatherData({
             ready: true,
             coordinates: response.data.coord,
@@ -54,7 +53,7 @@ export default function Weather(props) {
                         />
                     </div>
                     <div className="col-3">
-                        <button type="button" class="btn btn-primary w-100">Search</button>
+                        <button type="button" className="btn btn-primary w-100" onSubmit={handleSubmit}>Search</button>
                     </div>
                 
                 </div>

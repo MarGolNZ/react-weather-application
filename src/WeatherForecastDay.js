@@ -25,12 +25,12 @@ return (
         </div>
         <WeatherIcon code={props.data.weather[0].icon} size={36} />  
         <div className="WeatherForecast-tempreratures">
-            <span ClassName="temp-max"> 
+            <span className="temp-max"> 
                 <strong>
                     {maxTemperature()}
                 </strong>
             </span>
-            <span ClassName="temp-min">
+            <span className="temp-min">
                     {minTemperature()}
             </span>
         </div>
