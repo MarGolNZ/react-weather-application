@@ -16,7 +16,12 @@ export default function WeatherForecastDay(props) {
 
     function minTemperature() {
         let temperature = Math.round(props.data.temp.min)
-        return `${temperature}°`
+        if (props.unit === "celsius") {
+            return `${temperature}°`
+        }else if (props.unit === "fahrenheit") {
+            let fahrenheit = Math.round((temperature * 9/5) + 32)
+            return `${fahrenheit}°`
+        }
     }
 
     function day() {
