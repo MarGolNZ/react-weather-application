@@ -63,7 +63,7 @@ export default function Weather(props) {
             </form>
 
             <WeatherInfo unit={unit} setUnit={setUnit} data ={weatherData} />
-            <WeatherForecast coordinates={weatherData.coordinates}/>
+            <WeatherForecast unit={unit} coordinates={weatherData.coordinates}/>
         </div>
     );
     } else {
