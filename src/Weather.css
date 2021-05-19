@@ -45,3 +45,8 @@
   position: relative;
   top: -34px;
 }
+
+.loader {
+  margin: 100px auto;
+  text-align: center;
+}
