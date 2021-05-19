@@ -29,7 +29,7 @@ export default function WeatherInfo(props) {
                        </div>
                        
                        <div className="float-left">
-                           <WeatherTemperature celsius ={props.data.temperature}
+                           <WeatherTemperature unit={props.unit} setUnit={props.setUnit} celsius ={props.data.temperature}
                            />
                        
                        </div>

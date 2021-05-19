@@ -7,7 +7,8 @@ import Loader from "react-loader-spinner";
 
 export default function Weather(props) {
     const [city, setCity] = useState(props.defaultCity)
-    const [weatherData, setWeatherData] = useState({ ready: false })
+    const [weatherData, setWeatherData] = useState({ ready: false });
+    const [unit, setUnit] = useState("celsius");
 
     function handleResponse(response) {
         setWeatherData({
@@ -61,7 +62,7 @@ export default function Weather(props) {
 
             </form>
 
-            <WeatherInfo data ={weatherData} />
+            <WeatherInfo unit={unit} setUnit={setUnit} data ={weatherData} />
             <WeatherForecast coordinates={weatherData.coordinates}/>
         </div>
     );
