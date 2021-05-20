@@ -55,7 +55,7 @@ export default function Weather(props) {
                         />
                     </div>
                     <div className="col-3">
-                        <button type="submit" className="btn btn-primary w-100" >Search</button>
+                        <button type="submit" className="btn btn-secondary w-100" >Search</button>
                     </div>
                 
                 </div>
@@ -72,7 +72,7 @@ export default function Weather(props) {
       <Loader
         className="loader"
         type="Puff"
-        color="#00BFFF"
+        color="#495464;"
         height={100}
         width={100}
         timeout={3000} //3 secs
